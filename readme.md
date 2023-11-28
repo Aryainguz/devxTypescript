@@ -1,0 +1,1 @@
+This Chapter is for begineers with Typescript and it consists of all basics javascript code in typescript
