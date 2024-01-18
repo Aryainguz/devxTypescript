@@ -26,5 +26,20 @@ interface c{
 
 // interface supports inheritence and you cann add new property to instance of this type
 interface newC extends c{
-    BMI:string
+    age:number
 }
+
+class main{
+    height:number;
+    private weight:number;
+    constructor(height:number,weight:number){
+        this.height=height;
+        this.weight=weight;
+    }
+
+}
+
+
+const obj=new main(5,6);
+console.log(obj.height);
+// console.log(obj.weight);  // it will give error as weight is private
